@@ -31,8 +31,8 @@
 		<beans:property name="driverClassName" value="org.mariadb.jdbc.Driver" />
 		<beans:property name="url"
 			value="jdbc:mariadb://localhost:3306/travelocity" />
-		<beans:property name="username" value="root" />
-		<beans:property name="password" value="root" />
+		<beans:property name="username" value="" />
+		<beans:property name="password" value="" />
 	</beans:bean>
 
 
