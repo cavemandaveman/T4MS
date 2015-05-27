@@ -70,7 +70,7 @@
 					<c:if test="${!empty range}">
 					<c:forEach items="${range}" var="range">
 					<tr>
-						<td><a href="/webapp/details/${location.name}">${location.name}</a></td>
+						<td><a href="/webapp/details/${range.name}">${range.name}</a></td>
 						<td>${range.price}</td>
 						<td>${range.location}</td>
 					</tr>
@@ -79,7 +79,7 @@
 					<c:if test="${!empty both}">
 					<c:forEach items="${both}" var="both">
 					<tr>
-						<td><a href="/webapp/details/${location.name}">${location.name}</a></td>
+						<td><a href="/webapp/details/${both.name}">${both.name}</a></td>
 						<td>${both.price}</td>
 						<td>${both.location}</td>
 					</tr>

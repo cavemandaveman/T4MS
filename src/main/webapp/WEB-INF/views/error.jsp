@@ -52,7 +52,7 @@
 				</div>
 			</div>
 			<div id="content">
-				<h3>This is an error page!</h3>
+				<h1>This is an error page!</h1>
 			</div>
 		</div>
 		<div id="content_footer"></div>

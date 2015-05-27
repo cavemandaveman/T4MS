@@ -23,6 +23,9 @@ public class EventSpace {
 	
 	@Column(name="LOCATION")
 	private String location;
+	
+	@Column(name="DESCRIPTION")
+	private String description;
 
 	
 	public Integer getId() {
@@ -48,6 +51,12 @@ public class EventSpace {
 	}
 	public void setLocation(String location) {
 		this.location = location;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	
 }

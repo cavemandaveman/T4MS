@@ -54,22 +54,28 @@
 				<c:if test="${!empty eventSpace}">
 					<table>
 						<tr>
-							<td>Name</td>
-							<td>Price</td>
-							<td>Location</td>
-						</tr>
+							<td><h2>${eventSpace.name}</h2></td>
 						<tr>
-							<td>${eventSpace.name}</td>
-							<td>${eventSpace.price}</td>
-							<td>${eventSpace.location}</td>
+							<td><img alt="${eventSpace.name}" src="/webapp/resources/${eventSpace.name}.jpg"></td>
 						</tr>
-					</table>
-					<table>
 						<tr>
 							<td>About ${eventSpace.name}:</td>
 						</tr>
 						<tr>
-							<td>This is a description</td>
+							<td>${eventSpace.description}</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>Price</td>
+							<td>Location</td>
+						</tr>
+						<tr>
+							<td>${eventSpace.price}</td>
+							<td>${eventSpace.location}</td>
+						</tr>
+						<tr>
+							<td><input type="button" value="Reserve" />
 						</tr>
 					</table>
 				</c:if>

@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div id="content">
-				<p>Welcome</p>
+				<h2>Welcome</h2>
 			</div>
 		</div>
 		<div id="content_footer"></div>
